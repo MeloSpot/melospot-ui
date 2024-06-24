@@ -1,7 +1,10 @@
 {
-  "name": "spot-ui",
-  "version": "0.1.0",
-  "private": true,
+  "name": "melospot-ui",
+  "version": "0.1.1",
+  "main": "components/index.ts",
+  "bin": {
+    "melospot-ui": "./cli.js"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
